@@ -163,8 +163,13 @@ input {
   width: 250px;
   height: 30px;
   border-radius: 5px;
+  /* margin-bottom: 20px; */
+}
+.col-1 > div,
+.col-2 > div {
   margin-bottom: 20px;
 }
+
 input::placeholder {
   padding-left: 5px;
   font-size: 0.9rem;
@@ -186,7 +191,9 @@ input:focus {
   box-shadow: 0px 2px 5px 2px rgba(197, 197, 197, 1);
 }
 
-#errorMessage {
+#errorMessage,
+#errorMail,
+#phoneMessage {
   color: red;
   text-transform: none;
   font-weight: lighter;
